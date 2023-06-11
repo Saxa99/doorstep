@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Food Service App - Signup</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="signup-container">
+    <h1>Create an Account</h1>
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      Date of Birth: <input type="date" name="birthday" required>
+      
+      Gender: 
+      <div class="gender">
+        Male<input type="radio" name="Gender" value="male">
+        Female<input type="radio" name="Gender" value="female"> 
+        Others<input type="radio" name="Gender" value="others"> 
+      </div><br>
+        Address: <textarea id="message" name="message" rows="4" cols="50"></textarea>
+      
+      <button type="submit">Sign Up</button>
+    </form>
+    <p>Already have an account? <a href="login.html">Log in</a></p>
+  </div>
+</body>
+</html>
